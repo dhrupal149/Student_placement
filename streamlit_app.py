@@ -9,7 +9,7 @@ communication = st.slider("Communication Score", 1, 10, 5)
 projects = st.slider("Number of Projects", 0, 5, 2)
 
 if st.button("Predict"):
-    url = "http://localhost:3000/predict"
+    url = "https://student-placement-predict-lsyn.onrender.com/predict"
     data = {
         "cgpa": cgpa,
         "aptitude": aptitude,
